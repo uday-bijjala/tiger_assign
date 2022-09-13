@@ -1,0 +1,252 @@
+Script started on 2022-09-13 14:01:38+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+(base) ]0;root@TIGER02850: /root@TIGER02850:/# conda --version
+conda 4.14.0
+(base) ]0;root@TIGER02850: /root@TIGER02850:/# conda update conda
+Collecting package metadata (current_repodata.json): - \ | / - \ | / - \ | / - done
+Solving environment: | / - \ | done
+
+# All requested packages already installed.
+
+Retrieving notices: ...working... done
+(base) ]0;root@TIGER02850: /root@TIGER02850:/# conda update conda[Kconda create --name snowflakes biopython1 biopython
+Collecting package metadata (current_repodata.json): - \ done
+Solving environment: / - \ done
+
+## Package Plan ##
+
+  environment location: /root/miniconda3/envs/snowflakes1
+
+  added / updated specs:
+    - biopython
+
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      pkgs/main/linux-64::_libgcc_mutex-0.1-main
+  _openmp_mutex      pkgs/main/linux-64::_openmp_mutex-5.1-1_gnu
+  biopython          pkgs/main/linux-64::biopython-1.78-py310h7f8727e_0
+  blas               pkgs/main/linux-64::blas-1.0-mkl
+  bzip2              pkgs/main/linux-64::bzip2-1.0.8-h7b6447c_0
+  ca-certificates    pkgs/main/linux-64::ca-certificates-2022.07.19-h06a4308_0
+  certifi            pkgs/main/linux-64::certifi-2022.6.15-py310h06a4308_0
+  intel-openmp       pkgs/main/linux-64::intel-openmp-2021.4.0-h06a4308_3561
+  ld_impl_linux-64   pkgs/main/linux-64::ld_impl_linux-64-2.38-h1181459_1
+  libffi             pkgs/main/linux-64::libffi-3.3-he6710b0_2
+  libgcc-ng          pkgs/main/linux-64::libgcc-ng-11.2.0-h1234567_1
+  libgomp            pkgs/main/linux-64::libgomp-11.2.0-h1234567_1
+  libstdcxx-ng       pkgs/main/linux-64::libstdcxx-ng-11.2.0-h1234567_1
+  libuuid            pkgs/main/linux-64::libuuid-1.0.3-h7f8727e_2
+  mkl                pkgs/main/linux-64::mkl-2021.4.0-h06a4308_640
+  mkl-service        pkgs/main/linux-64::mkl-service-2.4.0-py310h7f8727e_0
+  mkl_fft            pkgs/main/linux-64::mkl_fft-1.3.1-py310hd6ae3a3_0
+  mkl_random         pkgs/main/linux-64::mkl_random-1.2.2-py310h00e6091_0
+  ncurses            pkgs/main/linux-64::ncurses-6.3-h5eee18b_3
+  numpy              pkgs/main/linux-64::numpy-1.23.1-py310h1794996_0
+  numpy-base         pkgs/main/linux-64::numpy-base-1.23.1-py310hcba007f_0
+  openssl            pkgs/main/linux-64::openssl-1.1.1q-h7f8727e_0
+  pip                pkgs/main/linux-64::pip-22.1.2-py310h06a4308_0
+  python             pkgs/main/linux-64::python-3.10.4-h12debd9_0
+  readline           pkgs/main/linux-64::readline-8.1.2-h7f8727e_1
+  setuptools         pkgs/main/linux-64::setuptools-63.4.1-py310h06a4308_0
+  six                pkgs/main/noarch::six-1.16.0-pyhd3eb1b0_1
+  sqlite             pkgs/main/linux-64::sqlite-3.39.2-h5082296_0
+  tk                 pkgs/main/linux-64::tk-8.6.12-h1ccaba5_0
+  tzdata             pkgs/main/noarch::tzdata-2022c-h04d1e81_0
+  wheel              pkgs/main/noarch::wheel-0.37.1-pyhd3eb1b0_0
+  xz                 pkgs/main/linux-64::xz-5.2.5-h7f8727e_1
+  zlib               pkgs/main/linux-64::zlib-1.2.12-h5eee18b_3
+
+
+Proceed ([y]/n)? y
+
+Preparing transaction: / - \ done
+Verifying transaction: / - \ | / - \ | / - done
+Executing transaction: | / - \ | / - \ | / - \ | done
+#
+# To activate this environment, use
+#
+#     $ conda activate snowflakes1
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+Retrieving notices: ...working... done
+(base) ]0;root@TIGER02850: /root@TIGER02850:/# conda activate snowflakes1
+(snowflakes1) ]0;root@TIGER02850: /root@TIGER02850:/# conda info --envs
+# conda environments:
+#
+base                     /root/miniconda3
+snakes                   /root/miniconda3/envs/snakes
+snowflakes               /root/miniconda3/envs/snowflakes
+snowflakes1           *  /root/miniconda3/envs/snowflakes1
+
+(snowflakes1) ]0;root@TIGER02850: /root@TIGER02850:/# conda deacgt[K[Ktia[Kvate
+(base) ]0;root@TIGER02850: /root@TIGER02850:/# conda create --name snakes python=3.91 python=3.9
+Collecting package metadata (current_repodata.json): - \ | / - \ done
+Solving environment: / done
+
+## Package Plan ##
+
+  environment location: /root/miniconda3/envs/snakes1
+
+  added / updated specs:
+    - python=3.9
+
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      pkgs/main/linux-64::_libgcc_mutex-0.1-main
+  _openmp_mutex      pkgs/main/linux-64::_openmp_mutex-5.1-1_gnu
+  ca-certificates    pkgs/main/linux-64::ca-certificates-2022.07.19-h06a4308_0
+  certifi            pkgs/main/linux-64::certifi-2022.6.15-py39h06a4308_0
+  ld_impl_linux-64   pkgs/main/linux-64::ld_impl_linux-64-2.38-h1181459_1
+  libffi             pkgs/main/linux-64::libffi-3.3-he6710b0_2
+  libgcc-ng          pkgs/main/linux-64::libgcc-ng-11.2.0-h1234567_1
+  libgomp            pkgs/main/linux-64::libgomp-11.2.0-h1234567_1
+  libstdcxx-ng       pkgs/main/linux-64::libstdcxx-ng-11.2.0-h1234567_1
+  ncurses            pkgs/main/linux-64::ncurses-6.3-h5eee18b_3
+  openssl            pkgs/main/linux-64::openssl-1.1.1q-h7f8727e_0
+  pip                pkgs/main/linux-64::pip-22.1.2-py39h06a4308_0
+  python             pkgs/main/linux-64::python-3.9.13-haa1d7c7_1
+  readline           pkgs/main/linux-64::readline-8.1.2-h7f8727e_1
+  setuptools         pkgs/main/linux-64::setuptools-63.4.1-py39h06a4308_0
+  sqlite             pkgs/main/linux-64::sqlite-3.39.2-h5082296_0
+  tk                 pkgs/main/linux-64::tk-8.6.12-h1ccaba5_0
+  tzdata             pkgs/main/noarch::tzdata-2022c-h04d1e81_0
+  wheel              pkgs/main/noarch::wheel-0.37.1-pyhd3eb1b0_0
+  xz                 pkgs/main/linux-64::xz-5.2.5-h7f8727e_1
+  zlib               pkgs/main/linux-64::zlib-1.2.12-h5eee18b_3
+
+
+Proceed ([y]/n)? y
+
+Preparing transaction: \ | done
+Verifying transaction: - \ | / - \ | / done
+Executing transaction: \ | / - \ | / - \ | / done
+#
+# To activate this environment, use
+#
+#     $ conda activate snakes1
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+Retrieving notices: ...working... done
+(base) ]0;root@TIGER02850: /root@TIGER02850:/# conda activate snakes1
+(snakes1) ]0;root@TIGER02850: /root@TIGER02850:/# conda info --envs
+# conda environments:
+#
+base                     /root/miniconda3
+snakes                   /root/miniconda3/envs/snakes
+snakes1               *  /root/miniconda3/envs/snakes1
+snowflakes               /root/miniconda3/envs/snowflakes
+snowflakes1              /root/miniconda3/envs/snowflakes1
+
+(snakes1) ]0;root@TIGER02850: /root@TIGER02850:/# o[Kpython --version'[K
+Python 3.9.13
+(snakes1) ]0;root@TIGER02850: /root@TIGER02850:/# conda searx[Kch beautifil[K[Kulsoup4
+Loading channels: - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / done
+# Name                       Version           Build  Channel             
+beautifulsoup4                 4.6.0          py27_1  pkgs/main           
+beautifulsoup4                 4.6.0  py27h3f86ba9_1  pkgs/main           
+beautifulsoup4                 4.6.0  py35h442a8c9_1  pkgs/main           
+beautifulsoup4                 4.6.0          py36_1  pkgs/main           
+beautifulsoup4                 4.6.0  py36h49b8c8c_1  pkgs/main           
+beautifulsoup4                 4.6.0          py37_1  pkgs/main           
+beautifulsoup4                 4.6.1          py27_0  pkgs/main           
+beautifulsoup4                 4.6.1          py35_0  pkgs/main           
+beautifulsoup4                 4.6.1          py36_0  pkgs/main           
+beautifulsoup4                 4.6.1          py37_0  pkgs/main           
+beautifulsoup4                 4.6.3          py27_0  pkgs/main           
+beautifulsoup4                 4.6.3          py35_0  pkgs/main           
+beautifulsoup4                 4.6.3          py36_0  pkgs/main           
+beautifulsoup4                 4.6.3          py37_0  pkgs/main           
+beautifulsoup4                 4.7.1          py27_1  pkgs/main           
+beautifulsoup4                 4.7.1          py36_1  pkgs/main           
+beautifulsoup4                 4.7.1          py37_1  pkgs/main           
+beautifulsoup4                 4.8.0          py27_0  pkgs/main           
+beautifulsoup4                 4.8.0          py36_0  pkgs/main           
+beautifulsoup4                 4.8.0          py37_0  pkgs/main           
+beautifulsoup4                 4.8.1          py27_0  pkgs/main           
+beautifulsoup4                 4.8.1          py36_0  pkgs/main           
+beautifulsoup4                 4.8.1          py37_0  pkgs/main           
+beautifulsoup4                 4.8.1          py38_0  pkgs/main           
+beautifulsoup4                 4.8.2          py27_0  pkgs/main           
+beautifulsoup4                 4.8.2          py36_0  pkgs/main           
+beautifulsoup4                 4.8.2          py37_0  pkgs/main           
+beautifulsoup4                 4.8.2          py38_0  pkgs/main           
+beautifulsoup4                 4.9.0          py36_0  pkgs/main           
+beautifulsoup4                 4.9.0          py37_0  pkgs/main           
+beautifulsoup4                 4.9.0          py38_0  pkgs/main           
+beautifulsoup4                 4.9.1          py36_0  pkgs/main           
+beautifulsoup4                 4.9.1  py36h06a4308_0  pkgs/main           
+beautifulsoup4                 4.9.1          py37_0  pkgs/main           
+beautifulsoup4                 4.9.1  py37h06a4308_0  pkgs/main           
+beautifulsoup4                 4.9.1          py38_0  pkgs/main           
+beautifulsoup4                 4.9.1  py38h06a4308_0  pkgs/main           
+beautifulsoup4                 4.9.1  py39h06a4308_0  pkgs/main           
+beautifulsoup4                 4.9.3    pyha847dfd_0  pkgs/main           
+beautifulsoup4                 4.9.3    pyhb0f4dca_0  pkgs/main           
+beautifulsoup4                4.10.0    pyh06a4308_0  pkgs/main           
+beautifulsoup4                4.11.1 py310h06a4308_0  pkgs/main           
+beautifulsoup4                4.11.1  py37h06a4308_0  pkgs/main           
+beautifulsoup4                4.11.1  py38h06a4308_0  pkgs/main           
+beautifulsoup4                4.11.1  py39h06a4308_0  pkgs/main           
+(snakes1) ]0;root@TIGER02850: /root@TIGER02850:/# cpmd[K[K[K[Kconda search beautifulsoup4[C[C[1P beautifulsoup4[1P beautifulsoup4[1P beautifulsoup4[1P beautifulsoup4[1P beautifulsoup4[1P beautifulsoup4i beautifulsoup4n beautifulsoup4s beautifulsoup4t beautifulsoup4a beautifulsoup4l beautifulsoup4l beautifulsoup4
+Collecting package metadata (current_repodata.json): - \ | / - \ | / done
+Solving environment: \ done
+
+## Package Plan ##
+
+  environment location: /root/miniconda3/envs/snakes1
+
+  added / updated specs:
+    - beautifulsoup4
+
+
+The following NEW packages will be INSTALLED:
+
+  beautifulsoup4     pkgs/main/linux-64::beautifulsoup4-4.11.1-py39h06a4308_0
+  soupsieve          pkgs/main/noarch::soupsieve-2.3.1-pyhd3eb1b0_0
+
+
+Proceed ([y]/n)? y
+
+Preparing transaction: / done
+Verifying transaction: \ done
+Executing transaction: / - \ | / - done
+Retrieving notices: ...working... done
+(snakes1) ]0;root@TIGER02850: /root@TIGER02850:/# conda list
+# packages in environment at /root/miniconda3/envs/snakes1:
+#
+# Name                    Version                   Build  Channel
+_libgcc_mutex             0.1                        main  
+_openmp_mutex             5.1                       1_gnu  
+beautifulsoup4            4.11.1           py39h06a4308_0  
+ca-certificates           2022.07.19           h06a4308_0  
+certifi                   2022.6.15        py39h06a4308_0  
+ld_impl_linux-64          2.38                 h1181459_1  
+libffi                    3.3                  he6710b0_2  
+libgcc-ng                 11.2.0               h1234567_1  
+libgomp                   11.2.0               h1234567_1  
+libstdcxx-ng              11.2.0               h1234567_1  
+ncurses                   6.3                  h5eee18b_3  
+openssl                   1.1.1q               h7f8727e_0  
+pip                       22.1.2           py39h06a4308_0  
+python                    3.9.13               haa1d7c7_1  
+readline                  8.1.2                h7f8727e_1  
+setuptools                63.4.1           py39h06a4308_0  
+soupsieve                 2.3.1              pyhd3eb1b0_0  
+sqlite                    3.39.2               h5082296_0  
+tk                        8.6.12               h1ccaba5_0  
+tzdata                    2022c                h04d1e81_0  
+wheel                     0.37.1             pyhd3eb1b0_0  
+xz                        5.2.5                h7f8727e_1  
+zlib                      1.2.12               h5eee18b_3  
+(snakes1) ]0;root@TIGER02850: /root@TIGER02850:/# conda deactivate
+(base) ]0;root@TIGER02850: /root@TIGER02850:/# exit
+exit
+
+Script done on 2022-09-13 14:05:33+05:30 [COMMAND_EXIT_CODE="0"]
